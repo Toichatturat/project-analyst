@@ -4,11 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 import plotly.express as px
-import os
 import warnings
-from PIL import Image
 import datetime
-import matplotlib.pyplot as plt
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import base64
@@ -17,7 +14,6 @@ warnings.filterwarnings('ignore')
 
 # Setting
 st.set_page_config(page_title="Dashboard By Natthaphat", page_icon=":bar_chart:",layout="wide")
-image = Image.open('atm.png')
 
 st.title(" :bar_chart: Store Analysis")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
